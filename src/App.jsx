@@ -1,34 +1,13 @@
-import { useState } from "react";
-
-function App(){
-
-  const [nome, setNome] = useState('Ronaldo')
-
-  const Formulario = () => {
-
+import Produtos from  "./pages/produtos";
+ 
+ const App = () => {
+ 
     return (
-      <div>
-          <input
-            className="nome"
-            onChange={(e)=>{setNome(e.target.value)}}
-            name="nome"
-            type="text" />
-      <button
-            onClick={()=>{alert(nome)}}
-            className="botao">
-          CLIQUE AQUI
-      </button>
-      </div>
-    );
-  };
-
-  return (
-    <div>
-      <h3>Pizzaria 2C</h3>
-      <Formulario />
-      <Formulario />
-    </div>
-  );
+        <div>
+            <h1>Projeto Pizzaria</h1>
+ 
+            <Produtos />
+        </div>
+   );
 }
-
-export default App
+export default App;

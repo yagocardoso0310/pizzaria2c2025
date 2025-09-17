@@ -19,7 +19,7 @@ const Produtos = () => {
                 <li>Pizza de Queijo</li>
                 <li>Pizza de Queijo</li>
                 <li>Pizza de Queijo</li>
-                <li>Pizza de Queijo</li>☻
+                <li>Pizza de Queijo</li>
  
             </ul>
         </div>
